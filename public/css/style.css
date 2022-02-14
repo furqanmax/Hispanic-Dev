@@ -1,0 +1,288 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px!important;
+    color: #151D22!important;
+}
+a{
+        color: #151D22!important;
+
+    
+}
+.text-color{
+    color: #151D22!important;
+
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.nav-link{
+    font-size: 13px;
+    color: #151d22 !important ;
+}
+.search{
+    background: #F0E0CE;
+}
+
+.main-color{
+    background: #DB6021;
+}
+.main-color_sec{
+    background: #32B15A;
+}
+.color_one{
+    color: #32B15A;
+}
+.color_secondary{
+    color:#DB6021 ;
+}
+.custom_grey{
+ background: #fafafa;
+}
+.grey-color{
+  color: #787878!important
+  ;
+}
+.text-14{
+    font-size: 14px!important;
+   
+}
+.text-16{
+    font-size: 16px!important;
+}
+.text-13{
+    font-size: 13px!important;
+}
+.text-12{
+  font-size: 12px!important;
+}
+.btn-language{
+    background: #F0E0CE; 
+} 
+.text-18{
+    font-size: 18px!important;
+}
+.btn-custom{
+    background: #addfc6!important;
+    color: #151d22 !important ;
+    font-weight:bold!important;
+}
+.btn-border{
+    border: 1px solid #4F97C8!important;
+}
+.text-22{
+    font-size: 22px!important;
+}
+.fac{
+    background: #3b5998	;
+    color: #fff;
+}
+.fac:hover{
+    color:#3b5998;
+    background: #fff;
+    border:1px solid #3b5998;
+}
+.google:hover{
+    color: #dc4e41;
+    border: 1px solid #dc4e41;
+    background-color: #fff;
+}
+.google{
+background-color: #dc4e41	;
+color: #fff;
+
+}
+.apple:hover{
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+.apple{
+    background:#000 ;
+    color: #fff;
+
+}
+/* list */
+.list-group-item.active{
+    background: #DB6021!important;
+    border: none;  
+}
+/* search */
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem!important;
+    border-bottom-right-radius: 0.25rem!important;
+  }
+  .input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem!important;
+    border-bottom-left-radius: 0.25rem!important;
+  }
+  .input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #4F97C8
+    ;
+  }
+  .red-border{
+    border: 1px solid #4F97C8
+!important;
+  }
+  .input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+  }
+  .input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+  }
+
+/*  */
+.custom-select:focus{
+    border: 1px solid #4F97C8!important;
+    box-shadow: none!important;
+}
+.form-control:focus{
+    border: 1px solid #4F97C8!important;
+    box-shadow: none!important;
+
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: #addfc6!important;
+    border:none;
+
+}
+.nav-tabs .nav-link{
+    border: none;
+    box-shadow: none;
+}
+/* list */
+.list-post {
+    list-style-type: circle!important;}
+
+
+    /*  */
+    .wrapper{
+        background: #F8FAFC;
+        border: 2px dashed #94A3B8;
+        width: 200px;
+        margin-bottom: 20px;
+        padding:40px 20px;
+        text-align: center;
+    }
+    .wrapper #file-input{
+        display:none;
+      }
+      
+      .wrapper label[for='file-input'] *{
+        vertical-align:middle;
+        cursor:pointer;
+      }
+      
+      .wrapper label[for='file-input'] span{
+        margin-left: 10px
+      }
+      
+      .wrapper i.remove{
+        vertical-align:middle;
+        margin-left: 5px;
+        cursor:pointer;
+        display:none;
+      }
+
+/* event dropdown */
+.event_dropdown.show{
+  font-size: 14px!important;
+  transform: translate3d(-48px,28px,0px)!important;
+  border: none;
+  
+
+}
+.add_dropdown{
+  font-size: 14px!important;
+  border: none;
+}
+/* badge-expire */
+.badg-expire{
+  border:1px solid #6D757D!important;
+  color: #6D757D!important;
+}
+.yellow_page.show{
+  font-size: 14px!important;
+  border: none;
+}
+/* long form dropdown */
+.long_form_dropdown.show{
+ font-size: 14px; 
+ border:none;
+ transform: translate3d(303px, 70px, 0px)!important;
+}
+/* yellow dropdown */
+.yellow_dropdown.show{
+  transform: translate3d(44px,20px,0px)!important;
+  font-size: 14px; 
+  border:none;
+}
+/* filter button */
+.btn-filter{
+  background-color: #addfc6;
+  color: #151d22 !important ;
+    font-weight:bold!important;
+    border:none;
+    font-size: 14px;
+}
+/* notification-card */
+.notification-card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)!important;
+}
+/* pricing-card */
+.pricing-card{
+  box-shadow: -1px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 14px!important;
+}
+.pricing-card-header{
+  background-color: #addfc6;
+  border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+}
+.btn-subscribe{
+  background-color: #addfc6;
+  color: #32b15a; 
+  text-transform: inherit;
+  box-shadow: none;
+}
+.text-10{
+  font-size: 10px!important;
+}
+      /* multi select */
+      .ms-options {
+        padding: 20px;
+        border: none; }
+      
+        .ms-options-wrap > button:focus:after, .ms-options-wrap > button:after {
+          right: 10px; }
+        .ms-options-wrap > button:focus:active, .ms-options-wrap > button:focus:focus, .ms-options-wrap > button:active, .ms-options-wrap > button:focus {
+          outline: none; }
+      
+     
+      .ms-options-wrap > .ms-options {
+        z-index: 1;
+        margin-top: 12px;
+        border: none !important;
+        -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 4px; }
+        .ms-options-wrap > .ms-options .ms-search input {
+          border-bottom: 1px solid #efefef; }
+        .ms-options-wrap > .ms-options .ms-selectall {
+          color: #aaaaaa;
+          text-transform: uppercase;
+          font-size: 11px; }
+          .ms-options-wrap > .ms-options .ms-selectall:hover {
+            color: #000; }
+        .ms-options-wrap > .ms-options > ul li.selected label {
+          border-radius: 4px;
+          background: #e1f2fb; }
+        .ms-options-wrap > .ms-options > ul li label {
+          border-radius: 4px;
+          border: none;
+          padding-bottom: 5px; }
+        .ms-options-wrap > .ms-options > ul li:hover label {
+          border: none;
+          background: #f7f7f7; }
